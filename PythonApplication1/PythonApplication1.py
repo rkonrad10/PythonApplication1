@@ -14,11 +14,11 @@ import scipy
 # import openai
 # openai.api_key = "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"
 # model_engine = "davinci"
+# zmena2 vetev1
 
 import module1
 import module2
 import module3
-
 
 def main():
 
@@ -32,8 +32,11 @@ def main():
 
     module3.Generuj_sinus3()
 
+
+
     return
 
+    """
     from scipy.fft import fft, fftfreq
     import numpy as np
     # Number of sample points
@@ -55,6 +58,7 @@ def main():
     plt.plot(xf, 2.0/N * np.abs(yf[0:N//2]))
     plt.grid()
     plt.show()
+    """
 
 
     """
@@ -74,9 +78,10 @@ def main():
     ]
     )
     """
-    # vypište odpovìï
+    # vypiste vetev1
     """
     answer = response.choices[0].text.strip()
     print(answer)
     """
+
 main()
