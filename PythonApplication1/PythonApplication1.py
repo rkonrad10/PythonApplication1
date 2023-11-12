@@ -12,9 +12,8 @@ import scipy
 # from chatgpt import Conversation
 
 # import openai
-# openai.api_key = "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"
 # model_engine = "davinci"
-# zmena2 vetev1
+# zmena3 vetev1
 
 import module1
 import module2
@@ -31,8 +30,6 @@ def main():
     # module2.Generuj_pilu2()
 
     module3.Generuj_sinus3()
-
-
 
     return
 
